@@ -60,7 +60,7 @@ hr{
 }
 
 h3 {
-	font-family: 'Raleway',sans-serif; 
+	font-family: 'Staatliches', cursive;
 	font-size: 30px; 
 	font-weight: 800; 
 	line-height: 36px; 
@@ -70,10 +70,10 @@ h3 {
 
 .about_me{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #D7BDE2; 
+    color: #f97171; 
     font-size: 26px;
     font-weight: bold;
-    background-color: #6b655b;
+    background-color: #b2eee6;
     margin-bottom: 40px;
     display: block;
   }
