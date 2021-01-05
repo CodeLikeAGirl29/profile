@@ -59,6 +59,15 @@ hr{
     display: inline;
 }
 
+h3 {
+	font-family: 'Raleway',sans-serif; 
+	font-size: 30px; 
+	font-weight: 800; 
+	line-height: 36px; 
+	margin: 0 0 24px; 
+	text-align: center; 
+}
+
 .about_me{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #D7BDE2; 
