@@ -79,8 +79,6 @@ h3 {
   }
 
 .main{
-	display: flex;
-	flex-direction:row;
     background-color: #fff;
     border: 1px solid #D7BDE2;
     margin-bottom: 15%;
@@ -92,6 +90,10 @@ p{
 }
 
 /*Portfolio*/
+
+.projects {
+	display: flex;
+}
 
 .group{
     margin: 0;
