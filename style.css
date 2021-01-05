@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 /* Global */
 
@@ -23,7 +23,7 @@ html, body{
 }
 
 .navbar-brand{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Staatliches', cursive;
     background-color: #D7BDE2;
     color: #ffffff !important;  
     height: 80px;
@@ -135,8 +135,18 @@ form textarea {
 }
 
 .item-double {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
   padding: 15px;
+}
+
+.contact-links {
+	color: grey;
+	border-bottom: solid 1px; 
+	border-bottom-color: rgba(15, 122, 252, 0.2);
+	 outline: none;
+  	text-decoration: none;
+  	padding: 2px 1px 0;
 }
 
 /* Footer */
