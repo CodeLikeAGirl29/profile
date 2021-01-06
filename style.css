@@ -24,11 +24,12 @@ header {
   	font-size: 17px;
 }
 
-.nav-iten {
+.nav-item {
 	color: #D7BDE2;
 	border-bottom: solid 1px; 
 	border-bottom-color: rgba(15, 122, 252, 0.2);
 	 outline: none;
+	text-align: center; 
   	text-decoration: none;
   	padding: 2px 1px 0;
 }
