@@ -174,7 +174,11 @@ form {
      margin-right: 2%; 
 }
 
-
+.cf {
+	display: flex;
+	margin-left: 50px;
+	
+}
 
 .item-double {
   display: flex;
