@@ -153,6 +153,7 @@ text-justify: inter-word;
 } 
 
 form {
+   display: block;
    max-width: 600px;
    text-align: center;
    margin: 20px auto;
@@ -220,6 +221,25 @@ form {
 	 outline: none;
   	text-decoration: none;
   	padding: 2px 1px 0;
+}
+
+a {
+  color: red;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: purple;
 }
 
 /* Footer */
