@@ -92,13 +92,24 @@
           <div class="about_me">
 		  <div class="bg-white text-info"><h3>Contact</h3></div>
       <hr>
-	<form class="cf">
-	<div class="half left cf">
-	<input type="text" id="input-name" placeholder="Name">
-	<input type="email" id="input-email" placeholder="Email address">
-	<input type="text" id="input-message" placeholder="Message">
-	<input type="submit" value="Submit">
-  </div>
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Let's Get in Touch!</h3>
+    <h4>Contact me here.</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
 		</div>
 				</div>
 				<div>
