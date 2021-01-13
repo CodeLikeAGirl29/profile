@@ -38,6 +38,7 @@ header {
 }
 
 .navbar-nav {
+	list-style-type:none;
     flex-direction: row;
 }
 
