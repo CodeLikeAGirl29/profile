@@ -57,11 +57,6 @@ header {
     text-align: center;
 }
 
-main a {
-	font-weight: 700;
-	text-decoration: none;	
-}
-
 nav-link  a:link { color: #38786a; }
 nav-link  a:visited { color: #38786a; }
 nav-link  a:hover { color: #403933; }
@@ -72,7 +67,15 @@ a:hover {
 	text-decoration: underline;	
 }
 
+
 /* Main Area */
+
+main a {
+	font-weight: 700;
+	text-decoration: none;
+   margin: 0 0 1.15em;
+  margin-top: 1.5em;
+}
 
 hr{
     border-bottom: 3px solid #D7BDE2;
@@ -82,7 +85,7 @@ hr{
     display: inline;
 }
 
-h3 {
+h3, h2 {
 	font-family: 'Staatliches', cursive;
 	font-size: 30px; 
 	font-weight: 800; 
@@ -103,11 +106,16 @@ h3 {
     background-color: #fff;
     border: 1px solid #D7BDE2;
     margin-bottom: 15%;
+    margin: 0 0 1.15em;
+    margin-top: 1.5em;
  }
 
 .wrapper {
-  display: block;
-  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  flex-flow: row wrap;
 }
 
 p{
@@ -115,9 +123,9 @@ color: #685206;
 font-family: 'Helvetica Neue', sans-serif; 
 font-size: 14px;
 line-height: 24px; 
-margin: 0 0 24px; 
-text-align: justify; 
+text-align: center; 
 text-justify: inter-word;
+ margin: 0 0 1.15em;
 }
 
 /*Portfolio*/
@@ -164,7 +172,8 @@ text-justify: inter-word;
 #contact {
   background: #f9f9f9;
   padding: 25px;
-  margin: 150px 0;
+   margin: 0 auto;
+  position: relative;
 }
 
 #contact h3 {
@@ -242,18 +251,17 @@ fieldset {
 }
 
 .item-double {
-  display: flex;
-  justify-content: space-between;
+  display: block;
   padding: 15px;
 }
 
-.contact-links {
-	color: grey;
+#contact-links {
+  color: grey;
+  text-align: center;
 	border-bottom: solid 1px; 
 	border-bottom-color: rgba(15, 122, 252, 0.2);
 	 outline: none;
   	text-decoration: none;
-  	padding: 2px 1px 0;
 }
 
 a {
@@ -360,6 +368,3 @@ a:visited {
         max-width: 960px;
     }
 }
-
-
-
