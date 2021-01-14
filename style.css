@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 /* Global */
 
@@ -26,6 +27,7 @@ header {
 h1 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 80px;
+	color: #EE22CC;
 	margin-bottom: 30px;
 }
 
