@@ -23,6 +23,12 @@ header {
   	font-size: 17px;
 }
 
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
 .nav-item {
 	color: #D7BDE2;
 	border-bottom: solid 1px; 
@@ -52,7 +58,6 @@ header {
     color: #ffffff !important;  
     height: 80px;
     width: 270px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
