@@ -1,6 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* Global */
 
@@ -12,7 +11,10 @@ html, body{
 img{
   border: 2px solid red;
   border-radius: 8px;
-  width: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Header */
@@ -26,8 +28,8 @@ header {
 }
 
 h1 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 80px;
+	font-family: 'Anton', sans-serif;
+	font-size: 55px;
 	color: #EE22CC;
 	margin-bottom: 30px;
 }
@@ -96,7 +98,7 @@ hr{
 
 h3, h2 {
 	font-family: 'Staatliches', cursive;
-	font-size: 30px; 
+	font-size: 1em; 
 	font-weight: 800; 
 	line-height: 36px; 
 	margin: 0 0 24px; 
@@ -171,13 +173,6 @@ text-justify: inter-word;
   position: relative;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea,
-#contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
-}
-
 #contact {
   background: #f9f9f9;
   padding: 25px;
@@ -233,7 +228,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #4CAF50;
+  background: #aaa;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -277,7 +272,6 @@ a {
   color: red;
   font-family: helvetica;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 a:hover {
