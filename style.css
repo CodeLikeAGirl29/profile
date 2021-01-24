@@ -129,6 +129,10 @@ h3, h2 {
   flex-flow: row wrap;
 }
 
+.favorite li::marker {
+ 	color: red;
+}
+
 p{
 color: #685206;
 font-family: 'Helvetica Neue', sans-serif; 
