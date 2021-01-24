@@ -24,12 +24,12 @@ header {
   	text-align: center;
   	padding: 14px 16px;
  	text-decoration: none;
-  	font-size: 17px;
+  	font-size: 1.0625em;
 }
 
 h1 {
 	font-family: 'Anton', sans-serif;
-	font-size: 55px;
+	font-size: 3.4375em;
 	color: #EE22CC;
 	margin-bottom: 30px;
 }
@@ -63,7 +63,7 @@ h1 {
     color: #ffffff !important;  
     height: 80px;
     width: 270px;
-    font-size: 26px;
+    font-size: 1.625em;
     font-weight: bold;
     text-align: center;
 }
@@ -98,7 +98,7 @@ hr{
 
 h3, h2 {
 	font-family: 'Staatliches', cursive;
-	font-size: 1em; 
+	font-size: 1.5em; 
 	font-weight: 800; 
 	line-height: 36px; 
 	margin: 0 0 24px; 
@@ -108,7 +108,7 @@ h3, h2 {
 .about_me{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #f97171; 
-    font-size: 20px;
+    font-size: 2em;
     background-color: #b2eee6;
     display: block;
   }
@@ -129,18 +129,26 @@ h3, h2 {
   flex-flow: row wrap;
 }
 
-.favorite li::marker {
- 	color: red;
-}
-
 p{
 color: #685206;
 font-family: 'Helvetica Neue', sans-serif; 
-font-size: 14px;
+font-size: 0.875em;
 line-height: 24px; 
 text-align: center; 
 text-justify: inter-word;
  margin: 0 0 1.15em;
+}
+
+/*My Favorite Things List*/
+.favorite li::marker {
+ 	color: red;
+}
+
+.fave {
+font-family: 'Helvetica Neue', sans-serif; 
+font-size: 0.875em;
+line-height: 24px; 
+text-align: center; 
 }
 
 /*Portfolio*/
@@ -186,7 +194,7 @@ text-justify: inter-word;
 
 #contact h3 {
   display: block;
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: 300;
   margin-bottom: 10px;
 }
@@ -194,7 +202,7 @@ text-justify: inter-word;
 #contact h4 {
   margin: 5px 0 15px;
   display: block;
-  font-size: 13px;
+  font-size: 0.8125em;
   font-weight: 400;
 }
 
@@ -236,7 +244,7 @@ fieldset {
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 0.9375em;
 }
 
 
@@ -264,7 +272,7 @@ fieldset {
 }
 
 #contact-links {
-  color: grey;
+  color: gray;
   text-align: center;
 	border-bottom: solid 1px; 
 	border-bottom-color: rgba(15, 122, 252, 0.2);
@@ -296,7 +304,7 @@ a:visited {
     border-top: 8px solid #D7BDE2;
     background-color: #666666;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75em;
     color:#dddddd;
     width: 100%;
     height: 60px;
