@@ -207,6 +207,11 @@ text-align: center;
   font-weight: 400;
 }
 
+iframe {
+	margin-left: auto;
+       margin-right: auto;
+}
+
 fieldset {
   border: medium none !important;
   margin: 0 0 10px;
