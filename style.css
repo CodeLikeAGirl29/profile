@@ -109,16 +109,16 @@ h3, h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #f97171; 
     font-size: 2em;
-    background-color: #b2eee6;
+    background-color: #ffdc7c;
     display: block;
   }
 
 .main{
     background-color: #fff;
     border: 1px solid #D7BDE2;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
     margin: 0 0 1.15em;
-    margin-top: 1.5em;
+    margin-top: 20%;
  }
 
 .wrapper {
