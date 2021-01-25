@@ -109,7 +109,7 @@ h3, h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #f97171; 
     font-size: 2em;
-    background-color: #ffdc7c;
+    background-color: #c0a8f0;
     display: block;
   }
 
@@ -142,11 +142,12 @@ text-justify: inter-word;
 /*My Favorite Things List*/
 .favorite li::marker {
  	color: red;
-	display: inline-block;
+	list-style-position: inside;
 }
 
-.fave {
-font-family: 'Helvetica Neue', sans-serif; 
+.fave li {
+font-family: 'Helvetica Neue', sans-serif;
+list-style-position: inside;
 font-size: 0.875em;
 line-height: 24px; 
 text-align: center; 
