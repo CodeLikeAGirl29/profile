@@ -142,6 +142,7 @@ text-justify: inter-word;
 /*My Favorite Things List*/
 .favorite li::marker {
  	color: red;
+	display: inline-block;
 }
 
 .fave {
